@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+  
+}
+
+.task {
+  background-color: #eee;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.task .inp {
+  width: 70%;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  height: 2rem;
+  max-width: 900px;
+}
+
+.task .sub {
+  height: 2rem;
+  background-color: #ff6926;
+  border-radius: 6px;
+  border: none;
+  transition: ease .3s;
+
+}
+.task .sub:hover{
+  opacity: .5;
+}
+.task-holder {
+  background-color: #eee;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.tsk {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 6px;
+  align-items: center;
+  max-width: 900px;
+  margin: 10px auto;
+
+}
+.tsk p {
+  margin: 0;
+}
+.delete {
+  height: 1.5rem;
+  background-color: #ff6926;
+  border-radius: 6px;
+  border: none;
+  transition: ease .3s;
+}
+.delete:hover{
+  opacity: .5;
+}
+.done{
+  opacity: 0.4;
+}
